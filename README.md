@@ -9,8 +9,10 @@
 │├── 데이터 정제 코드/
 │   │   ├── check_img.py            # 이미지 확장자 확인
 │   └   └── non_img_remove.py       # 이미지 아닌 파일 삭제
-││── 모델링 코드/                      # 모델링 코드
-│ ── .gitignore                     # Git에서 제외할 파일 목록
+││── 모델링 코드/                      
+│   │   ├── model/                  # 모델 저장
+│   └   └── 모델링 코드/               # 모델링 코드
+│ ── .gitignore                      # Git에서 제외할 파일 목록
 ├── README.md                       # 프로젝트 설명 파일 
 └── requirements.txt                # 필요한 패키지 목록
 ```
