@@ -1,3 +1,5 @@
+# 이미지 확장자 확인
+
 import os
 
 image_exts = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp'}
