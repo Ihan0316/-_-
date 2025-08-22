@@ -6,7 +6,7 @@ from PIL import Image, ImageFile
 from tqdm import tqdm
 
 # --- 설정 ---
-BASE_DATA_PATH = "../데이터/한국 음식 이미지/kfood"
+BASE_DATA_PATH = "/Users/ihanjo/Documents/미니 프로젝트/한국음식 예측/데이터/한국 음식 이미지/kfood"
 
 
 def find_problematic_images(data_path):
