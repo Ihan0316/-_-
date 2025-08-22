@@ -5,7 +5,7 @@ import os
 # 삭제하고 싶은 폴더의 경로 입력
 folder_path = '../데이터/한국 음식 이미지/kfood'
 
-image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp']
+image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp', '.svg']
 
 # 모든 하위 폴더 돌면서 파일 삭제
 for root, dirs, files in os.walk(folder_path):
