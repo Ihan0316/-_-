@@ -3,7 +3,7 @@
 import os
 
 # 삭제하고 싶은 폴더의 경로 입력
-folder_path = '/Users/ihanjo/Library/CloudStorage/GoogleDrive-ihann5726@gmail.com/내 드라이브/인공지능 사관학교/Coding/미니프로젝트/한국음식 예측/데이터'
+folder_path = '../데이터/한국 음식 이미지/kfood'
 
 image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp']
 

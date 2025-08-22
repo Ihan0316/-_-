@@ -5,7 +5,7 @@ import os
 image_exts = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp'}
 found_exts = set()
 
-root_dir = '/Users/ihanjo/Library/CloudStorage/GoogleDrive-ihann5726@gmail.com/내 드라이브/인공지능 사관학교/Coding/미니프로젝트/한국음식 예측/데이터'  # 탐색할 폴더 경로 (필요하면 변경)
+root_dir = '../데이터/한국 음식 이미지/kfood'
 
 for foldername, subfolders, filenames in os.walk(root_dir):
     print(f"Scanning folder: {foldername}")  # 현재 탐색 폴더 출력
